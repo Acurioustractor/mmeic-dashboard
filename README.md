@@ -1,46 +1,87 @@
-# Getting Started with Create React App
+# MMEIC Storytellers Stradbroke Visualization Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This interactive dashboard presents an analysis of stories and themes collected from Quandamooka storytellers on Stradbroke Island (Minjerribah) as part of the MMEIC School Holiday Program.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Thematic Analysis**: Visualizes the most common themes from storytellers' narratives
+- **Sentiment Analysis**: Displays sentiment patterns and strength across different themes
+- **Quote Showcase**: Highlights meaningful quotes from community members
+- **Word Cloud**: Represents key terms and concepts sized by frequency in narratives
 
-### `npm start`
+## Project Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The project is built with React and uses several key libraries:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **React**: Frontend framework
+- **Recharts**: For creating responsive charts
+- **PapaParse**: For parsing CSV data
+- **Lodash**: For data manipulation
+- **TailwindCSS**: For styling
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+- Node.js and npm installed on your machine
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+   ```
+   git clone [repository URL]
+   cd mmeic-dashboard
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install dependencies:
+   ```
+   npm install
+   ```
 
-### `npm run eject`
+3. Start the development server:
+   ```
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+4. Open [http://localhost:3000](http://localhost:3000) to view the dashboard in your browser.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Data Source
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The visualizations are based on data collected from storytellers with proper consent and respect for cultural protocols. The data is stored in a CSV file (`StorytellersStradbroke.csv`) in the `public` directory.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Cultural Considerations
 
-## Learn More
+This project has been developed with respect for:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Cultural protocols around storytelling
+- Knowledge sovereignty
+- Indigenous data sovereignty principles
+- Proper attribution and consent
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Customization
+
+To modify the dashboard:
+
+1. **Data**: Replace the CSV file in the `public` directory
+2. **Themes**: Modify color schemes in `tailwind.config.js`
+3. **Components**: Edit individual visualization components in the `src/components` directory
+
+## Deployment
+
+Build the application for production:
+
+```
+npm run build
+```
+
+The build folder will contain the optimized production build ready for deployment.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgements
+
+- MMEIC (Minjerribah Moorgumpin Elders-in-Council)
+- Quandamooka storytellers who shared their knowledge
+- The traditional owners and custodians of Minjerribah (Stradbroke Island)

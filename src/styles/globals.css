@@ -1,0 +1,48 @@
+/* Fullscreen container styles */
+.fullscreen-container {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100vw !important;
+  height: 100vh !important;
+  z-index: 9999;
+  margin: 0 !important;
+  padding: 20px !important;
+  border-radius: 0 !important;
+  overflow: auto;
+}
+
+.visualization-container {
+  width: 100%;
+  height: 100%;
+  background-color: #f8f8f8;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+/* Significance indicator styles */
+.significance-high {
+  @apply bg-amber-700 text-white;
+}
+
+.significance-medium {
+  @apply bg-amber-500 text-white;
+}
+
+.significance-low {
+  @apply bg-amber-300 text-amber-900;
+}
+
+/* Animation for visualization elements */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.node-group {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.link {
+  animation: fadeIn 0.3s ease-in-out;
+} 
