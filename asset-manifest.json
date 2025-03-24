@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mmeic-dashboard/static/css/main.862ee25c.css",
+    "main.js": "/mmeic-dashboard/static/js/main.756e6fd4.js",
+    "static/js/511.2c74db82.chunk.js": "/mmeic-dashboard/static/js/511.2c74db82.chunk.js",
+    "index.html": "/mmeic-dashboard/index.html",
+    "main.862ee25c.css.map": "/mmeic-dashboard/static/css/main.862ee25c.css.map",
+    "main.756e6fd4.js.map": "/mmeic-dashboard/static/js/main.756e6fd4.js.map",
+    "511.2c74db82.chunk.js.map": "/mmeic-dashboard/static/js/511.2c74db82.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.862ee25c.css",
+    "static/js/main.756e6fd4.js"
+  ]
+}
