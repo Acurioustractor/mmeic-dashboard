@@ -54,6 +54,7 @@
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@types/d3": "^7.4.3",
     "autoprefixer": "^9.8.8",
+    "gh-pages": "^6.3.0",
     "postcss": "^7.0.39",
     "postcss-flexbugs-fixes": "^4.2.1",
     "postcss-normalize": "^8.0.1",
