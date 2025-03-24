@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link, Switch, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Route, Link, Switch, useLocation } from 'react-router-dom';
 import StorytellerVisualization from './components/StorytellerVisualization';
 import SentimentAnalysis from './components/SentimentAnalysis';
 import WordCloudVisualization from './components/WordCloudVisualization';
