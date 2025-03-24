@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/mmeic-dashboard/static/css/main.862ee25c.css",
-    "main.js": "/mmeic-dashboard/static/js/main.06652868.js",
+    "main.js": "/mmeic-dashboard/static/js/main.78326cf3.js",
     "static/js/511.2c74db82.chunk.js": "/mmeic-dashboard/static/js/511.2c74db82.chunk.js",
     "index.html": "/mmeic-dashboard/index.html",
     "main.862ee25c.css.map": "/mmeic-dashboard/static/css/main.862ee25c.css.map",
-    "main.06652868.js.map": "/mmeic-dashboard/static/js/main.06652868.js.map",
+    "main.78326cf3.js.map": "/mmeic-dashboard/static/js/main.78326cf3.js.map",
     "511.2c74db82.chunk.js.map": "/mmeic-dashboard/static/js/511.2c74db82.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.862ee25c.css",
-    "static/js/main.06652868.js"
+    "static/js/main.78326cf3.js"
   ]
 }
